@@ -12,6 +12,8 @@ implementation code and other process can be tracked and identified.
 Database Connections are required and can be set in Bootstrap.
 <b><p> Please note to add the helper path in the Bootstrap or applicaton.ini <p></b>
 
+
+<b><p> Database Code </p></b>
 <code>
 CREATE TABLE `logs`.`_logs` 
 ( `logs_id` INT NOT NULL AUTO_INCREMENT COMMENT 'Id for this table' , 
